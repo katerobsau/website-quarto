@@ -1,0 +1,139 @@
+---
+title: "Publications"
+---
+
+## R packages
+
+```{r}
+#| echo: false
+#| message: false
+#| eval: false
+library(tidyverse)
+library(tsibble)
+library(lubridate)
+library(pkgsearch)
+# remotes::install_github("robjhyndman/pkgmeta")
+library(pkgmeta)
+
+# Functions for getting downloads
+find_cran_packages <- function(name) {
+  pkgsearch::ps(name, size = 100) %>%
+    filter(purrr::map_lgl(
+      package_data, ~ grepl(name, .x$Author, fixed = TRUE)
+    )) %>%
+    select(package) %>%
+    pull(package)
+}
+
+# Monthly download counts from packages in <x>
+cran_downloads <- function(x) {
+  # Compute monthly download counts
+  down <- cranlogs::cran_downloads(x, from = "2000-01-01") %>%
+    as_tibble() %>%
+    mutate(month = tsibble::yearmonth(date)) %>%
+    group_by(month) %>%
+    summarise(count = sum(count), package = x)
+  # Strip out initial zeros
+  first_nonzero <- down %>%
+    filter(count > 0) %>%
+    head(1)
+  if (NROW(first_nonzero) > 0) {
+    filter(down, month >= first_nonzero$month)
+  } else {
+    first_nonzero
+  }
+}
+
+packages <- c(    
+  find_cran_packages("Di Cook"),
+  find_cran_packages("Dianne Cook")
+)
+
+pkg_data <- pkgmeta:::get_meta_cran(packages, 
+    include_downloads=TRUE) |>
+    rename(released = first_download, last_update = date)
+
+# Remove incorrect entries
+pkg_data <- pkg_data |>
+  filter(package != "MatTransMix")
+save(pkg_data, file = "software.rda")
+```
+
+```{r}
+#| message: false
+#| eval: false
+#| echo: false
+# Download package hex stickers
+# But avoid this because not all are in correct aspect ratio
+#library(readr)
+#library(glue)
+#hex <- read_csv("hex.csv")
+#download.file(hex$hexlink, 
+#  destfile = glue("hex_images/{hex$package}.png"))
+```
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(glue)
+library(stringr)
+library(flextable)
+library(magick)
+hex <- read_csv("hex.csv") |>
+  select(package, hexfile) |>
+  rename(hex = hexfile)
+
+load("software.rda")
+pkg_data <- pkg_data |>
+  #mutate(pkglink = glue("[{package}]({url})")) |>
+  left_join(hex, by="package") |>
+  #mutate(authors = str_replace(authors, "\\[aut, cre\\]", "")) |>
+  #mutate(authors = str_replace(authors, "\\[aut, ctb\\]", "")) |>
+  #mutate(authors = str_replace(authors, "\\[aut, ths\\]", "")) |>
+  #mutate(authors = str_replace(authors, "\\[aut\\]//g", "")) |>
+  #mutate(authors = str_replace(authors, "\\[ths\\]//g", "")) |>
+  #mutate(authors = str_replace(authors, "\\[ctb\\]//g", "")) |>
+  #mutate(authors = str_replace(authors, "\\[cph\\]", "")) |>
+  #mutate(authors = str_replace(authors, "\n/g", "")) |>
+  #mutate(authors = str_replace(authors, "\\([^)]*\\)//g", "")) |>
+  #mutate(authors = str_replace(authors, "(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})([\\/\\w \\.-]*)", "")) |>
+  arrange(desc(downloads))
+pkg_data <- pkg_data |>
+  mutate(hex = ifelse(is.na(hex), "hex_images/hex-none.png", hex))
+pkg_tbl <- pkg_data |> 
+  #select(pkglink, released, last_update, version, title, #authors, 
+  #       downloads) |>
+  select(package, last_update, released, version, title, downloads, url, hex) |>
+  flextable() |>   
+    colformat_num(big.mark = ",", decimal.mark = ".") |>
+    colformat_date(fmt_date = "%d/%m/%Y")
+pkg_tbl <- compose(
+  x = pkg_tbl,
+  j = "package",
+  value = as_paragraph(hyperlink_text(x=package, url=url, 
+     props = officer::fp_text(color = "#a96469")))) |>
+  delete_columns(j = "url") 
+
+pkg_tbl <- colformat_image(x = pkg_tbl,
+                           i=1:nrow(pkg_data),
+                           j = "hex", width = 1, height = 1.156, 
+                           na_str = "") 
+pkg_tbl 
+```
+
+::: {style="font-size: 60%"}
+
+*This page is automatically populated using `pkgsearch` with R with all time downloads.*
+
+:::
+
+
+## Other software
+
+- Swayne, D., Temple Lang, D., Cook, D., and Buja, A. (2001-), with Wickham, H., Lawrence, M. and Hofmann, H. (2005-), [GGobi: software for exploratory graphical analysis of high-dimensional data](http://www.ggobi.org). There is an associated R package rggobi which provides a tight coupling of R and ggobi, with command line control of ggobi.
+- Cook, D., Sutherland, P., Honavar, V., Miller, L., Suarez, M. and Jing Zhang (1999- ). Limn: Visualizing extremely large data sets.
+- Sutherland, P., Rossini, A., Lumley, T., Dickerson, J., Cox, Z., and Cook, D. (1998-). ORCA: Multivariate Data Viewers using JAVA.
+- Swayne, D., Cook, D., and Buja, A. (1990-). [XGobi: software for exploratory graphical analysis of high-dimensional data using scatterplot manipulation.](https://github.com/ggobi/xgobi).
+- Majure, J. J., Symanzik, J., and Cook, D. (1996). ArcView 2.1 - XGobi link: software connecting a GIS with dynamic statistical graphics program for multivariate data.
