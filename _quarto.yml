@@ -4,7 +4,7 @@ project:
   resources: files
 
 website:
-  title: "Dianne H. Cook"
+  title: "Kate Saunders"
   favicon: logo.png
   site-url: https://dicook.org
   navbar:
