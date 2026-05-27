@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Kate Saunders",
     "section": "",
-    "text": "No matching items"
+    "text": "Add a title\n\n\n\nresearch\n\n\n\n\n\n\n\n\n\n27 May 2026\n\n\nKate Saunders\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "links.html",
@@ -40,6 +40,20 @@
     "title": "Kate Saunders",
     "section": "",
     "text": "Add stuff about you"
+  },
+  {
+    "objectID": "posts/2026-05-27-tilte/index.html",
+    "href": "posts/2026-05-27-tilte/index.html",
+    "title": "Add a title",
+    "section": "",
+    "text": "stuff stuff stuff"
+  },
+  {
+    "objectID": "posts/2026-05-27-tilte/index.html#blog-stuff",
+    "href": "posts/2026-05-27-tilte/index.html#blog-stuff",
+    "title": "Add a title",
+    "section": "",
+    "text": "stuff stuff stuff"
   },
   {
     "objectID": "teaching.html",

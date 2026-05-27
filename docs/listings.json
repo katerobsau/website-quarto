@@ -1,6 +1,8 @@
 [
   {
     "listing": "/blog.html",
-    "items": []
+    "items": [
+      "/posts/2026-05-27-tilte/index.html"
+    ]
   }
 ]
