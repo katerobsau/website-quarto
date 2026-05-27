@@ -1,1 +1,1 @@
-Sitemap: https://dicook.org/sitemap.xml
+Sitemap: https://katerobsau.github.io/website-quarto/sitemap.xml

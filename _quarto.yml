@@ -6,7 +6,7 @@ project:
 website:
   title: "Kate Saunders"
   favicon: logo.png
-  site-url: https://dicook.org
+  site-url: https://katerobsau.github.io/website-quarto/
   navbar:
     background: primary
     search: true
@@ -29,10 +29,10 @@ website:
         href: blog.qmd
     right:
       - icon: github
-        href: https://github.com/dicook/dicook-quarto      
+        href: https://github.com/katerobsau/website-quarto      
 
 body-footer: | 
-  Copyright:  Dianne Cook, 2025
+  Copyright:  Kate Saunders, 2026
 
 date-format: "D MMMM YYYY"
 
