@@ -4,3 +4,5 @@
 #TODO: update student row info
 #TODO: remove software tab
 #TODO: add blog details
+#TODO: add education 
+#TODO: teaching
