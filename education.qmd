@@ -15,7 +15,7 @@ title: "Education"
 |:------|:------|:------|
 | Aug 2022 - Current | Senior Lecturer | Econometrics and Business Statistics, Monash University |
 | Jan 2021 - Jul 2022 | Lecturer | Mathematics and Statistics, Queensland University of Technology |
-| Nov 2018 - Oct 2020 | Postdoc | Technical University of Delft |
+| Nov 2018 - Oct 2020 | Postdoc | Delft Institute of Applied Mathematics, Technical University of Delft |
 | Jan 2012 - Jan 2014 | Graduate Fellow | Commonwealth Scientific Research Organisation
 
 <!--
