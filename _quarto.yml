@@ -19,14 +19,14 @@ website:
         href: publications.qmd
       - text: Talks
         href: talks.qmd
-      - text: Software
-        href: software.qmd
+      # - text: Software
+      #   href: software.qmd
       - text: Teaching
         href: teaching.qmd
       - text: Students
         href: students.qmd
-      - text: Blog
-        href: blog.qmd
+      # - text: Blog
+      #   href: blog.qmd
     right:
       - icon: github
         href: https://github.com/katerobsau/website-quarto      

@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "Kate Saunders",
     "section": "",
-    "text": "Kate Saunders is a Senior Lecturer in Econometrics and Business Statistics at Monash University in Melbourne, Australia. Her primary focus is on modelling climate extremes and understanding how the probability of extreme events might be influenced by natural variability and climate change. Other interests include statistical post-processing of meteorological forecasts, quality control of meteorological data, compound event risk, and natural hazard analytics. Kate’s research improves our understanding of extreme events and helps support informed decisions about weather- and climate-related risk."
+    "text": "Kate Saunders is a Senior Lecturer in Econometrics and Business Statistics at Monash University in Melbourne, Australia. Her primary focus is on modelling climate extremes and understanding how the probability of extreme events might be influenced by natural variability and climate change. Other interests include statistical post-processing of meteorological forecasts, quality control of meteorological data, compound event risk, and natural hazard analytics. Kate’s research aims to improve our understanding of extreme events and support decisions about weather and climate risk."
   },
   {
     "objectID": "posts/2026-05-27-tilte/index.html",
@@ -60,21 +60,14 @@
     "href": "teaching.html",
     "title": "Teaching resources",
     "section": "",
-    "text": "number\ntitle\nlocation\ndescription\n\n\n\n\nETC3250/5250\nIntroduction to Machine Learning\nMonash University\nCovers the classic methods for dimension reduction, supervised classification and cluster analysis. What is special about this unit is the use ot high-dimensional data visualisation to explain emothds, and to diagnose models.\n\n\nETC5521\nDiving Deeper into Data\nMonash University\nThis is an advanced exploratory data analysis unit, that is based on the spirit of Tukey, to discover the unexpected in data. It has a large focus on making effective plots of data, and checking for suprious structure with modern methods of inference for graphics.\n\n\nETC5512\nWild-caught data\nMonash University\nThis class is designed to introduce students to the variety of open source data available, to learn how to extract and tidy the data for analysis, curate new databases, understand the ethics of open data provision and use, and see how these data are used in a sample of case studies.\n\n\nETC1010/5510\nIntroduction to Data Analysis\nMonash University\nThe goal of this unit is to get students started with data analysis as fast as possible, so that they have a reasonable chance to begin tackling many contemporary and common problems. They learn how to read a variety of data formats, tidy, wrangle and visualise data, handle missing values, and fit basic statistical and computational models.\n\n\nETC2420/5242\nStatistical Thinking\nMonash University\nThis unit develops students understanding of probability in order to build skills for conducting statistical inference. It is based on a modern computational approach to statistics, leveraging randomisation methods such as simulation, bootstrap, cross-validation, and permutation. The conceptual framework of hypothesis testing and confidence intervals is taught and the differences between frequentist and Bayesian procedures.\n\n\nETX5551\nAdvanced topics in econometrics and business statistics 1\nMonash University\nFour weeks on high-dimensional data visualisation following materials at https://dicook.github.io/mulgar_book/"
+    "text": "number\ntitle\nlocation\ndescription\n\n\n\n\nETC5512\nWild-caught data\nMonash University\nThis class is designed to introduce students to the variety of open source data available, to learn how to extract and tidy the data for analysis, curate new databases, understand the ethics of open data provision and use, and see how these data are used in a sample of case studies.\n\n\nETX2250/ETF5922\nData visualisation and communication\nMonash University\nThis unit provides a comprehensive introduction to data visualisation. Students will learn how to interpret, evaluate and create visualisations. They also learn foundational principles of data visualisation, visual storytelling, communication theory and more advanced topics such as interactivity.\n\n\nMXN500/MXQ500\nIntroduction to statistics for data science\nQueensland University of Technology\nThe focus of this unit is on applying statistical methods in real-world contexts. Students look for meaningful patterns and model data to increasing levels of complexity. Topics cover include data and variables, visualisation, introductory probability, hypothesis testing, and linear regression.\n\n\nSEB113\nQuantitative Methods in Science\nQueensland University of Technology\nThis is a foundational science unit for developing core quantitative skills in mathematics and introductory statistical modelling. Topic taught underpin all modern scientific practice with covers topics relevant to later science units."
   },
   {
     "objectID": "teaching.html#university-courses",
     "href": "teaching.html#university-courses",
     "title": "Teaching resources",
     "section": "",
-    "text": "number\ntitle\nlocation\ndescription\n\n\n\n\nETC3250/5250\nIntroduction to Machine Learning\nMonash University\nCovers the classic methods for dimension reduction, supervised classification and cluster analysis. What is special about this unit is the use ot high-dimensional data visualisation to explain emothds, and to diagnose models.\n\n\nETC5521\nDiving Deeper into Data\nMonash University\nThis is an advanced exploratory data analysis unit, that is based on the spirit of Tukey, to discover the unexpected in data. It has a large focus on making effective plots of data, and checking for suprious structure with modern methods of inference for graphics.\n\n\nETC5512\nWild-caught data\nMonash University\nThis class is designed to introduce students to the variety of open source data available, to learn how to extract and tidy the data for analysis, curate new databases, understand the ethics of open data provision and use, and see how these data are used in a sample of case studies.\n\n\nETC1010/5510\nIntroduction to Data Analysis\nMonash University\nThe goal of this unit is to get students started with data analysis as fast as possible, so that they have a reasonable chance to begin tackling many contemporary and common problems. They learn how to read a variety of data formats, tidy, wrangle and visualise data, handle missing values, and fit basic statistical and computational models.\n\n\nETC2420/5242\nStatistical Thinking\nMonash University\nThis unit develops students understanding of probability in order to build skills for conducting statistical inference. It is based on a modern computational approach to statistics, leveraging randomisation methods such as simulation, bootstrap, cross-validation, and permutation. The conceptual framework of hypothesis testing and confidence intervals is taught and the differences between frequentist and Bayesian procedures.\n\n\nETX5551\nAdvanced topics in econometrics and business statistics 1\nMonash University\nFour weeks on high-dimensional data visualisation following materials at https://dicook.github.io/mulgar_book/"
-  },
-  {
-    "objectID": "teaching.html#workshops",
-    "href": "teaching.html#workshops",
-    "title": "Teaching resources",
-    "section": "Workshops",
-    "text": "Workshops\n\n\n\n\n\n\n\n\ndate\ntitle\nlocation\ndetails\n\n\n\n\n2025-10-24\nPublishing your software\nNUMBAT workshop, SSA SCV\n3 hours\n\n\n2025-09-29\nVisualising Uncertainty\nWOMBAT 2025\n3 hours\n\n\n2025-07-24\nSISBID 2015-2025 Module 2: Visualization of Biomedical Big Data\nVirtual\n2.5 days, annually\n\n\n2025-06-20\nTake a data plot and make it better\nNUMBAT workshop, SSA SCV\n3 hours\n\n\n2024-10-22\nCreating effective data plots\nWOMBAT 2024\n3 hours\n\n\n2024-07-08\nVisualising High-dimensional Data with R\nuseR! 2024, Salzburg\n3 hours\n\n\n2024-03-26\nVisualising High-dimensional Data with R\nSSA SCV, online\n3 hours\n\n\n2023-12-02\nCreating data plots for effective decision-making using statistical inference with R\nSSA SCV, online\n3 hours\n\n\n2023-10-19\nCreating data plots for effective decision-making using statistical inference with R\nMontevideo, Uruguay\n3 hours\n\n\n2022-11-28\nVisual methods for multivariate data - a journey beyond 3D\nSASA 2022, George, South Africa\n3 hours\n\n\n2020-06-23\nGoing beyond 2D and 3D to visualise higher dimensions, for ordination, clustering and other models\nvISEC 2020\n3 hours\n\n\n\n\n\n\n\nAnd more than 30 workshops across the globe over many years."
+    "text": "number\ntitle\nlocation\ndescription\n\n\n\n\nETC5512\nWild-caught data\nMonash University\nThis class is designed to introduce students to the variety of open source data available, to learn how to extract and tidy the data for analysis, curate new databases, understand the ethics of open data provision and use, and see how these data are used in a sample of case studies.\n\n\nETX2250/ETF5922\nData visualisation and communication\nMonash University\nThis unit provides a comprehensive introduction to data visualisation. Students will learn how to interpret, evaluate and create visualisations. They also learn foundational principles of data visualisation, visual storytelling, communication theory and more advanced topics such as interactivity.\n\n\nMXN500/MXQ500\nIntroduction to statistics for data science\nQueensland University of Technology\nThe focus of this unit is on applying statistical methods in real-world contexts. Students look for meaningful patterns and model data to increasing levels of complexity. Topics cover include data and variables, visualisation, introductory probability, hypothesis testing, and linear regression.\n\n\nSEB113\nQuantitative Methods in Science\nQueensland University of Technology\nThis is a foundational science unit for developing core quantitative skills in mathematics and introductory statistical modelling. Topic taught underpin all modern scientific practice with covers topics relevant to later science units."
   },
   {
     "objectID": "talks.html",
@@ -88,35 +81,28 @@
     "href": "students.html",
     "title": "Graduated and current PhD students",
     "section": "",
-    "text": "nameyearfromtopicco-advisorsWenkai Zhong2030ChinaEnhancing Climate Resilience in the Agricultural SectorJonathan BarrattJarryd Chapman2028AustraliaModelling Australian Climate ExtremesMichael LydeamoreJanith Wanniarachchi2027Colombo, Sri LankaVisualisation for XAIDi Cook,  Patricia Menendez,  Thiyanga Talagala"
+    "text": "nameyearfromtopicco-advisorsWenkai Zhong2030Nanjing, ChinaEnhancing Climate Resilience in the Agricultural SectorJonathan BarrattJarryd Chapman2028Melbourne, AustraliaModelling Australian Climate ExtremesMichael LydeamoreJanith Wanniarachchi2027Colombo, Sri LankaVisualisation for XAIDi Cook,  Patricia Menendez,  Thiyanga Talagala"
   },
   {
     "objectID": "education.html",
     "href": "education.html",
     "title": "Education",
     "section": "",
-    "text": "year\ndegree\ninstitution\n\n\n\n\n1982\nB.Sc./Dip. Ed. (Math/Stat/Biochem)\nUniversity of New England, Armidale, Australia\n\n\n1991\nM.Sc (Statistics)\nRutgers University, New Jersey, USA\n\n\n1993\nPh.D (Statistics)\nRutgers University, New Jersey, USA"
+    "text": "Year\nDegree\nInstitution\n\n\n\n\n2011\nB.Sc. Hons. (Mathematics)\nUniversity of Queensland, Australia\n\n\n2019\nPh.D (Mathematics and Statistics)\nMelbourne University, Australia"
   },
   {
     "objectID": "education.html#degrees",
     "href": "education.html#degrees",
     "title": "Education",
     "section": "",
-    "text": "year\ndegree\ninstitution\n\n\n\n\n1982\nB.Sc./Dip. Ed. (Math/Stat/Biochem)\nUniversity of New England, Armidale, Australia\n\n\n1991\nM.Sc (Statistics)\nRutgers University, New Jersey, USA\n\n\n1993\nPh.D (Statistics)\nRutgers University, New Jersey, USA"
+    "text": "Year\nDegree\nInstitution\n\n\n\n\n2011\nB.Sc. Hons. (Mathematics)\nUniversity of Queensland, Australia\n\n\n2019\nPh.D (Mathematics and Statistics)\nMelbourne University, Australia"
   },
   {
     "objectID": "education.html#positions",
     "href": "education.html#positions",
     "title": "Education",
     "section": "Positions",
-    "text": "Positions\n\n\n\n\n\n\n\n\nyear\nposition\ninstitution\n\n\n\n\nJul 2021\nDistinguished Professor\nEconometrics and Business Statistics, Monash University\n\n\nJul 2015\nProfessor\nEconometrics and Business Statistics, Monash University\n\n\nMay 2005\nProfessor\nStatistics, Iowa State University\n\n\nMay 1998\nAssociate Professor\nStatistics, Iowa State University\n\n\nAug 1993\nAssistant Professor\nStatistics, Iowa State University"
-  },
-  {
-    "objectID": "education.html#visits",
-    "href": "education.html#visits",
-    "title": "Education",
-    "section": "Visits",
-    "text": "Visits\n\n\n\n\n\n\n\ndates\ninstitution\n\n\n\n\nJun 17-21, 2024\nTuring Institute, London, UK\n\n\nMar-Jul, 2023\nEWHA Womens University, Seoul, South Korea\n\n\nJan-May 2008\nIsaac Newton Institute for Mathematical Sciences, Cambridge University, UK\n\n\nFeb-May 2004\nStatistics, Macquarie University, Australia\n\n\nJul 2002\nUniversity of Augsburg, Germany\n\n\nDec 2001\nAT&T Labs, Florham Park, NJ\n\n\nOct 2000\n3D Visual Data Mining Group, University of Aalborg, Denmark\n\n\nApr-Jun 2000\nLucent Technologies, Indian Hill, IL\n\n\nJan-Apr 2000\nBiometricsSA, Adelaide, Australia\n\n\nOct 1999\nPfizer Inc, Groton, CT\n\n\nJun-Jul 1999, Oct- Nov 1998\nNational Research Center for Statistics and the Environment, University of Washington, Seattle, WA\n\n\nJun-Aug 1997, Jul- Sep 1999\nStanford University, CA\n\n\nMar 1996, Mar 1995, Nov 1994\nAT&T Bell Labs, Murray Hill, NJ\n\n\nAug 1994\nHumboldt University, Berlin, Germany\n\n\nJul 1994, Jul 1993, Jul 1991\nCentre for Mathematics and its Applications, Australian National University"
+    "text": "Positions\n\n\n\n\n\n\n\n\nYear\nPosition\nInstitution\n\n\n\n\nAug 2022 - Current\nSenior Lecturer\nEconometrics and Business Statistics, Monash University\n\n\nJan 2021 - Jul 2022\nLecturer\nMathematics and Statistics, Queensland University of Technology\n\n\nNov 2018 - Oct 2020\nPostdoc\nTechnical University of Delft\n\n\nJan 2012 - Jan 2014\nGraduate Fellow\nCommonwealth Scientific Research Organisation"
   },
   {
     "objectID": "software.html",

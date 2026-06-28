@@ -4,21 +4,19 @@ title: "Education"
 
 ## Degrees
 
-| year  | degree | institution |
+| Year  | Degree | Institution |
 |:------|:------|:------|
-| 1982  | B.Sc./Dip. Ed. (Math/Stat/Biochem) | University of New England, Armidale, Australia |
-| 1991  | M.Sc (Statistics) | Rutgers University, New Jersey, USA |
-|1993   | Ph.D (Statistics) | Rutgers University, New Jersey, USA |
+| 2011  | B.Sc. Hons. (Mathematics) | University of Queensland, Australia |
+| 2019   | Ph.D (Mathematics and Statistics) | Melbourne University, Australia |
 
 ## Positions
 
-| year  | position | institution |
+| Year  | Position | Institution |
 |:------|:------|:------|
-| Jul 2021 | Distinguished Professor | Econometrics and Business Statistics, Monash University |
-| Jul 2015 | Professor | Econometrics and Business Statistics, Monash University |
-| May 2005 | Professor | Statistics, Iowa State University |
-| May 1998 | Associate Professor | Statistics, Iowa State University |
-| Aug 1993 | Assistant  Professor | Statistics, Iowa State University |
+| Aug 2022 - Current | Senior Lecturer | Econometrics and Business Statistics, Monash University |
+| Jan 2021 - Jul 2022 | Lecturer | Mathematics and Statistics, Queensland University of Technology |
+| Nov 2018 - Oct 2020 | Postdoc | Technical University of Delft |
+| Jan 2012 - Jan 2014 | Graduate Fellow | Commonwealth Scientific Research Organisation
 
 <!--
 ## Awards
@@ -55,22 +53,22 @@ title: "Education"
 - University Foundation Award for Early Excellence in Research, 1999
 -->
 
-## Visits
+<!-- ## Visits -->
 
-| dates | institution |
-|:------|:------|
-| Jun 17-21, 2024 | Turing Institute, London, UK |
-| Mar-Jul, 2023 | EWHA Womens University, Seoul, South Korea |
-| Jan-May 2008 | Isaac Newton Institute for Mathematical Sciences, Cambridge University, UK |
-| Feb-May 2004 | Statistics, Macquarie University,  Australia |
-| Jul 2002 | University of Augsburg, Germany |
-| Dec 2001 |  AT&T Labs, Florham Park, NJ|
-| Oct 2000 | 3D Visual Data Mining Group, University of Aalborg, Denmark |
-| Apr-Jun 2000 | Lucent Technologies, Indian Hill, IL |
-| Jan-Apr 2000 | BiometricsSA, Adelaide, Australia |
-| Oct 1999 | Pfizer Inc, Groton, CT |
-| Jun-Jul 1999, Oct- Nov 1998 | National Research Center for Statistics and the Environment, University of Washington, Seattle, WA |
-| Jun-Aug 1997, Jul- Sep 1999 | Stanford University, CA |
-| Mar 1996, Mar 1995, Nov 1994 | AT&T Bell Labs, Murray Hill, NJ |
-| Aug 1994 | Humboldt University, Berlin, Germany |
-| Jul 1994, Jul 1993, Jul 1991 | Centre for Mathematics and its Applications, Australian National University |
+<!-- | dates | institution | -->
+<!-- |:------|:------| -->
+<!-- | Jun 17-21, 2024 | Turing Institute, London, UK | -->
+<!-- | Mar-Jul, 2023 | EWHA Womens University, Seoul, South Korea | -->
+<!-- | Jan-May 2008 | Isaac Newton Institute for Mathematical Sciences, Cambridge University, UK | -->
+<!-- | Feb-May 2004 | Statistics, Macquarie University,  Australia | -->
+<!-- | Jul 2002 | University of Augsburg, Germany | -->
+<!-- | Dec 2001 |  AT&T Labs, Florham Park, NJ| -->
+<!-- | Oct 2000 | 3D Visual Data Mining Group, University of Aalborg, Denmark | -->
+<!-- | Apr-Jun 2000 | Lucent Technologies, Indian Hill, IL | -->
+<!-- | Jan-Apr 2000 | BiometricsSA, Adelaide, Australia | -->
+<!-- | Oct 1999 | Pfizer Inc, Groton, CT | -->
+<!-- | Jun-Jul 1999, Oct- Nov 1998 | National Research Center for Statistics and the Environment, University of Washington, Seattle, WA | -->
+<!-- | Jun-Aug 1997, Jul- Sep 1999 | Stanford University, CA | -->
+<!-- | Mar 1996, Mar 1995, Nov 1994 | AT&T Bell Labs, Murray Hill, NJ | -->
+<!-- | Aug 1994 | Humboldt University, Berlin, Germany | -->
+<!-- | Jul 1994, Jul 1993, Jul 1991 | Centre for Mathematics and its Applications, Australian National University | -->
