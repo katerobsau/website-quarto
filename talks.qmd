@@ -1,6 +1,8 @@
 ---
-title: "Invited talks and seminars"
+title: "Invited talks"
 ---
+
+<!-- #TODO: Add invited seminars -->
 
 ```{r}
 #| echo: false
@@ -25,5 +27,5 @@ talks |>
       titlelink ~ px(400),
       location ~ px(250),
       details ~ px(100)) |>
-  cols_align("left")
+  cols_align("left") 
 ```
