@@ -2,8 +2,6 @@
 title: "Teaching resources"
 ---
 
-## University courses
-
 ```{r}
 #| echo: false
 #| message: false
