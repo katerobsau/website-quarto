@@ -2,12 +2,7 @@
 title: "Academic Activities"
 ---
 
-## Degrees
-
-| Year  | Degree | Institution |
-|:------|:------|:------|
-| 2011  | B.Sc. Hons. (Mathematics) | University of Queensland, Australia |
-| 2019   | Ph.D (Mathematics and Statistics) | Melbourne University, Australia |
+<!-- TODO: research visits, fun, workshop organisation -->
 
 ## Positions
 
@@ -18,6 +13,12 @@ title: "Academic Activities"
 | Nov 2018 - Oct 2020 | Postdoc | Delft Institute of Applied Mathematics, Technical University of Delft |
 | Jan 2012 - Jan 2014 | Graduate Fellow | Commonwealth Scientific Research Organisation
 
+## Degrees
+
+| Year  | Degree | Institution |
+|:------|:------|:------|
+| 2019   | Ph.D (Mathematics and Statistics) | Melbourne University, Australia |
+| 2011  | B.Sc. Hons. (Mathematics) | University of Queensland, Australia |
 
 ## Funding and Grants
 
@@ -86,6 +87,29 @@ talks |>
 | 2025–Current | Working Group Leader                                                                        | International Environmetrics ECR Committee                                  |
 | 2023–2025   | Seminar Organiser                                                              | Bernoulli One World Series on Extremes                                      |
 | 2021        | Chair of the Equity and Diversity Committee                                          | ARC Centre of Excellence in Mathematical and Statistical Frontiers (ACEMS)  |
+
+## Engagement, Outreach and Media
+
+| Type                  | Year | Details                                                                                                              |
+|:----------------------------------|:-----|:-----------------------------------------------------------------------------------------------------------|
+| RLadies speaker       | 2026 | Melbourne Chapter       |      
+| Inquiry submission   | 2026     | Contributed to the Victorian Parliamentary Inquiry into the 2026 Summer fires  |
+| Case study            | 2025   | Authored a case study for Queensland Inspector General of Emergency Management                                       |
+| Panel Discussant                 | 2025 | Monash Green Lab Roundtable: Extreme weather events, flood risk and stormwater systems        |
+| Inquiry submissions   | 2023     | Contributed submission to the Victorian Parliamentary Inquiry into the 2022 October floods |
+| Conversation Article | 2023 | Here’s why climate change isn’t always to blame for extreme rainfall | 
+| RLadies speaker       | 2022 | Brisbane Chapter    |
+| Conversation Article | 2022 | People could’ve prepared for the floods better if the impacts of weather forecasts were clearly communicated | 
+| Panel                 | 2022 | Data Science in the News Future of Floods Webinar                                                                    |
+| Panel                 | 2021 | Environmental Modelling for Better Decisions Conference                                                              |
+| Panel                 | 2021 | ACEMS Future Directions Panel                                                                                        |
+| Panel                 | 2021 | Qld. ANZIAM ECR Careers Panel                                                                                        |
+| Panel                 | 2021 | QUT Women in Mathematics Society Careers Panel                                                                       |
+| Podcast             |  2021    | Invited guest: Random Sample podcast                                        |
+| Podcast              | 2021   | Invited guest: Shiny Developer's podcast                                         |
+| RLadies speaker       | 2019 | Rotterdam Chapter         |
+| Conversation Article | 2017 | Is Usain Bolt the greatest athlete of all time? That’s not what the numbers say | 
+| Conversation Article | 2015 | Explainer: was the Sydney storm ‘once‑in‑a‑century’? | 
 
 <!-- ## Visits -->
 
