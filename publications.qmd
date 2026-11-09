@@ -23,7 +23,16 @@ pubs <- tibble(title = b$title.title.value,
                year = b$`publication-date.year.value`,
                journal = b$`journal-title.value`,
                doi = b$url.value) |>
+  group_by(title, journal) |>
+  arrange(desc(year)) |>
+  mutate(num = row_number()) |>
+  slice(1) |>
+  ungroup() |>
+  select(-num) |>
   arrange(desc(year))
+
+warning("warning hack to remove duplicates - naughty naughty")
+
 save(pubs, file="pubs.rda")
 ```
 

@@ -13,12 +13,14 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Education
-        href: education.qmd
+      # - text: Education
+      #   href: education.qmd
+      - text: Academic Activities
+        href: cv.qmd
       - text: Publications
         href: publications.qmd
-      - text: Talks
-        href: talks.qmd
+      # - text: Talks
+      #   href: talks.qmd
       # - text: Software
       #   href: software.qmd
       - text: Teaching

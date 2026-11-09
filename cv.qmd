@@ -1,0 +1,100 @@
+---
+title: "Academic Activities"
+---
+
+## Degrees
+
+| Year  | Degree | Institution |
+|:------|:------|:------|
+| 2011  | B.Sc. Hons. (Mathematics) | University of Queensland, Australia |
+| 2019   | Ph.D (Mathematics and Statistics) | Melbourne University, Australia |
+
+## Positions
+
+| Year  | Position | Institution |
+|:------|:------|:------|
+| Aug 2022 - Current | Senior Lecturer | Econometrics and Business Statistics, Monash University |
+| Jan 2021 - Jul 2022 | Lecturer | Mathematics and Statistics, Queensland University of Technology |
+| Nov 2018 - Oct 2020 | Postdoc | Delft Institute of Applied Mathematics, Technical University of Delft |
+| Jan 2012 - Jan 2014 | Graduate Fellow | Commonwealth Scientific Research Organisation
+
+
+## Funding and Grants
+
+Since 2021
+
+| Year      | Grant / Project                                                           | Funder / Details                                        | Amount (AUD) | Role                 |
+|-----------|:---------------------------------------------------------------------------|:---------------------------------------------------------|--------------|:----------------------|
+| 2025      | National Industry PhD Program                                             | Joint with reinsurer Celsisus Pro                       | $30,000+     |     Supervisor                 |
+| 2024      | Top-Up Scholarship for a PhD Student                                      | Joint with the Australian Climate Service               | $35,000      |      Supervisor                |
+| 2024–2025 | Chief Investigator (CI) with ARC Centre of Excellence in Climate Extremes | ARC Centre of Excellence in Climate Extremes            | $39 M        | 1 of 6 CIs at Monash |
+| 2022      | Applied Mathematical Ecology Group                                        | Faculty of Science funding for multidisciplinary groups | $165,000     | 1 of 6 CIs           |
+| 2021      | Stations in schools – Crowd-sourced observations for extreme events       | First Byte Funding – QUT Centre for Data Science                            | $10,000      | Sole CI              |
+| 2021      | Identifying bushfire blind spots and why we need responsible innovation   | ARC CoE ACEMS Ideas Challenge – joint project with CSIRO        | $10,000      | 1 of 3 CIs           |
+
+## Prizes and Awards 
+
+Since 2021 
+
+| Year | Prize / Award                                                                                                     | Value                  |
+|------|:-------------------------------------------------------------------------------------------------------------------|------------------------|
+| 2025 | Prize for best Scientific Paper at the Australian Bureau of Meteorology                                           |                        |
+| 2024 | Monash Vice Chancellor Awards for Excellence: Research Team of the Year Award                                                              |                        |
+| 2023 | Finalist in National Hazards Research Association Disaster Challenge                                              | $2,000 AUD             |
+| 2022 | Winner, QUT Centre for Data Science Director's Award for contributions to data science and the broader community  |                        |
+| 2021 | Winner, Harry Otten Prize for Innovation in Meteorology                                                           | €25,500 (~$40,000 AUD) |
+
+
+## Invited Talks 
+
+<!-- #TODO: Add invited seminars -->
+<!-- #TODO: Add a column for title and workshop -->
+<!-- #TODO: Want to capitalise titles -->
+<!-- #TODO: Make date columns-->
+
+
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+library(dplyr)
+library(gt)
+library(glue)
+library(lubridate)
+talks <- read_csv("talks.csv")
+talks <- talks |>
+  mutate(date = dmy(date)) |>
+  mutate(titlelink = ifelse(is.na(link), title, glue("[{title}]({link})"))) 
+talks |>
+  arrange(desc(date)) |>
+  select(date, titlelink, location, details) |>
+  gt() |>
+    gt::fmt_markdown(columns = titlelink) |>
+    cols_label(titlelink = "title") |> 
+    gt::cols_width(
+      date ~ px(100),
+      titlelink ~ px(400),
+      location ~ px(250),
+      details ~ px(100)) |>
+  cols_align("left") 
+```
+
+<!-- ## Visits -->
+
+<!-- | dates | institution | -->
+<!-- |:------|:------| -->
+<!-- | Jun 17-21, 2024 | Turing Institute, London, UK | -->
+<!-- | Mar-Jul, 2023 | EWHA Womens University, Seoul, South Korea | -->
+<!-- | Jan-May 2008 | Isaac Newton Institute for Mathematical Sciences, Cambridge University, UK | -->
+<!-- | Feb-May 2004 | Statistics, Macquarie University,  Australia | -->
+<!-- | Jul 2002 | University of Augsburg, Germany | -->
+<!-- | Dec 2001 |  AT&T Labs, Florham Park, NJ| -->
+<!-- | Oct 2000 | 3D Visual Data Mining Group, University of Aalborg, Denmark | -->
+<!-- | Apr-Jun 2000 | Lucent Technologies, Indian Hill, IL | -->
+<!-- | Jan-Apr 2000 | BiometricsSA, Adelaide, Australia | -->
+<!-- | Oct 1999 | Pfizer Inc, Groton, CT | -->
+<!-- | Jun-Jul 1999, Oct- Nov 1998 | National Research Center for Statistics and the Environment, University of Washington, Seattle, WA | -->
+<!-- | Jun-Aug 1997, Jul- Sep 1999 | Stanford University, CA | -->
+<!-- | Mar 1996, Mar 1995, Nov 1994 | AT&T Bell Labs, Murray Hill, NJ | -->
+<!-- | Aug 1994 | Humboldt University, Berlin, Germany | -->
+<!-- | Jul 1994, Jul 1993, Jul 1991 | Centre for Mathematics and its Applications, Australian National University | -->
