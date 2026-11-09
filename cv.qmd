@@ -79,6 +79,14 @@ talks |>
   cols_align("left") 
 ```
 
+## Service
+
+| Period      | Role                                                                           | Organisation                                                       |
+|:--------------|:-------------------|:----------------------|
+| 2025–Current | Working Group Leader                                                                        | International Environmetrics ECR Committee                                  |
+| 2023–2025   | Seminar Organiser                                                              | Bernoulli One World Series on Extremes                                      |
+| 2021        | Chair of the Equity and Diversity Committee                                          | ARC Centre of Excellence in Mathematical and Statistical Frontiers (ACEMS)  |
+
 <!-- ## Visits -->
 
 <!-- | dates | institution | -->
