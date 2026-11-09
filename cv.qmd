@@ -26,12 +26,12 @@ Since 2021
 
 | Year      | Grant / Project                                                           | Funder / Details                                        | Amount (AUD) | Role                 |
 |-----------|:---------------------------------------------------------------------------|:---------------------------------------------------------|--------------|:----------------------|
-| 2025      | National Industry PhD Program                                             | Joint with reinsurer Celsisus Pro                       | $30,000+     |     Supervisor                 |
-| 2024      | Top-Up Scholarship for a PhD Student                                      | Joint with the Australian Climate Service               | $35,000      |      Supervisor                |
-| 2024–2025 | Chief Investigator (CI) with ARC Centre of Excellence in Climate Extremes | ARC Centre of Excellence in Climate Extremes            | $39 M        | 1 of 6 CIs at Monash |
-| 2022      | Applied Mathematical Ecology Group                                        | Faculty of Science funding for multidisciplinary groups | $165,000     | 1 of 6 CIs           |
-| 2021      | Stations in schools – Crowd-sourced observations for extreme events       | First Byte Funding – QUT Centre for Data Science                            | $10,000      | Sole CI              |
-| 2021      | Identifying bushfire blind spots and why we need responsible innovation   | ARC CoE ACEMS Ideas Challenge – joint project with CSIRO        | $10,000      | 1 of 3 CIs           |
+| 2025      | Reducing climate risk in agriculture using on-farm data                          | [National Industry PhD Program](https://www.education.gov.au/national-industry-phd-program/resources/national-industry-phd-program-round-7-successful-projects)                                      | $30,000+     |     Supervisor joint with industry partner Celsisus Pro                     |
+| 2024      | Top-up Scholarship for a PhD Student                                      | Joint with the Australian Climate Service               | $35,000      |      Supervisor                |
+| 2024–2025 | Chief Investigator | ARC Centre of Excellence in Climate Extremes            | $39 M        | 1 of 6 CIs at Monash |
+| 2022      | Applied Mathematical Ecology Group                                        | QUT Faculty of Science funding for multidisciplinary groups | $165,000     | 1 of 6 CIs           |
+| 2021      | Stations in schools: Crowd-sourced observations for extreme events       | QUT Centre for Data Science: First Byte Funding                            | $10,000      | Sole CI              |
+| 2021      | Identifying bushfire blind spots and why we need responsible innovation   | ACEMS Centre of Excellence: Ideas Challenge        | $10,000      | 1 of 3 CIs  joint project with CSIRO          |
 
 ## Prizes and Awards 
 
@@ -92,24 +92,24 @@ talks |>
 
 | Type                  | Year | Details                                                                                                              |
 |:----------------------------------|:-----|:-----------------------------------------------------------------------------------------------------------|
-| RLadies speaker       | 2026 | Melbourne Chapter       |      
-| Inquiry submission   | 2026     | Contributed to the Victorian Parliamentary Inquiry into the 2026 Summer fires  |
-| Case study            | 2025   | Authored a case study for Queensland Inspector General of Emergency Management                                       |
+| RLadies speaker       | 2026 | Melbourne Chapter: [Data-driven decision making for fantasy basketball](https://www.youtube.com/watch?v=zUCAKb37oxY&t=1276s)       |      
+| Inquiry submission   | 2026     | [Contributed submission](https://www.parliament.vic.gov.au/4a3811/contentassets/b6c636af192f4cf898aac8ab13ea3106/submission-documents/409.-kate-saunders_redacted.pdf) to the Victorian Parliamentary Inquiry into the 2026 Summer fires  |
+| Case study            | 2025   | Authored a [case study](https://www.igem.qld.gov.au/research/case-studies/data-driven-recommendations-enhancing-real-time-natural-hazards-warnings-case) for Queensland Inspector General of Emergency Management                                       |
 | Panel Discussant                 | 2025 | Monash Green Lab Roundtable: Extreme weather events, flood risk and stormwater systems        |
-| Inquiry submissions   | 2023     | Contributed submission to the Victorian Parliamentary Inquiry into the 2022 October floods |
-| Conversation Article | 2023 | Here’s why climate change isn’t always to blame for extreme rainfall | 
-| RLadies speaker       | 2022 | Brisbane Chapter    |
-| Conversation Article | 2022 | People could’ve prepared for the floods better if the impacts of weather forecasts were clearly communicated | 
-| Panel                 | 2022 | Data Science in the News Future of Floods Webinar                                                                    |
+| Inquiry submissions   | 2023     | [Contributed submission](https://www.parliament.vic.gov.au/4ae499/contentassets/b5859319e7134e81b26296e5197bb765/submission-documents/675.-dr-kate-saunders_redacted.pdf) to the Victorian Parliamentary Inquiry into the 2022 October floods |
+| [Conversation Article](https://theconversation.com/heres-why-climate-change-isnt-always-to-blame-for-extreme-rainfall-206958) | 2023 | Here’s why climate change isn’t always to blame for extreme rainfall | 
+| RLadies speaker       | 2022 | Brisbane Chapter: [Using data science to respond to natural disasters](https://www.youtube.com/watch?v=5VFlbqbAUHU)    |
+| [Conversation Article](https://theconversation.com/people-couldve-prepared-for-the-floods-better-if-the-impacts-of-weather-forecasts-were-clearly-communicated-178309) | 2022 | People could’ve prepared for the floods better if the impacts of weather forecasts were clearly communicated | 
+| Panel                 | 2022 | [Data Science in the News Future of Floods Webinar](https://www.youtube.com/watch?v=cZjBXCiL7JA)                                                                    |
 | Panel                 | 2021 | Environmental Modelling for Better Decisions Conference                                                              |
 | Panel                 | 2021 | ACEMS Future Directions Panel                                                                                        |
 | Panel                 | 2021 | Qld. ANZIAM ECR Careers Panel                                                                                        |
 | Panel                 | 2021 | QUT Women in Mathematics Society Careers Panel                                                                       |
-| Podcast             |  2021    | Invited guest: Random Sample podcast                                        |
-| Podcast              | 2021   | Invited guest: Shiny Developer's podcast                                         |
-| RLadies speaker       | 2019 | Rotterdam Chapter         |
-| Conversation Article | 2017 | Is Usain Bolt the greatest athlete of all time? That’s not what the numbers say | 
-| Conversation Article | 2015 | Explainer: was the Sydney storm ‘once‑in‑a‑century’? | 
+| Podcast             |  2021    | Invited guest: [Random Sample podcast](https://www.therandomsample.com.au/podcast/using-stats-to-crowdsource-the-weather/)                                        |
+| Podcast              | 2021   | Invited guest: [Shiny Developer's podcast](https://www.youtube.com/watch?v=XqLx233W97U)                                         |
+| RLadies speaker       | 2019 | Rotterdam Chapter: Introduction to web scraping         |
+| [Conversation Article](https://theconversation.com/is-usain-bolt-the-greatest-athlete-of-all-time-thats-not-what-the-numbers-say-82212) | 2017 | Is Usain Bolt the greatest athlete of all time? That’s not what the numbers say | 
+| [Conversation Article](https://theconversation.com/explainer-was-the-sydney-storm-once-in-a-century-40824) | 2015 | Explainer: was the Sydney storm ‘once‑in‑a‑century’? | 
 
 <!-- ## Visits -->
 
